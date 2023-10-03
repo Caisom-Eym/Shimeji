@@ -1,19 +1,5 @@
-const btn = document.getElementById("btn")
 const inputDos = document.getElementById("input2")
 const audioContainer = document.getElementById("audio-container")
-
-var boolean = true;
-btn.onclick = () =>{
-    if (boolean){
-        worker.postMessage(["activar","susie"])
-        boolean = false
-    }
-    else{
-        worker.postMessage(["desactivar"])
-        boolean = true
-    }
-}
-
 inputDos.addEventListener("change",(e)=>{
     switch (inputDos.value){
         case "susie":
