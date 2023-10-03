@@ -1,0 +1,30 @@
+body {
+    width: 90%;
+    height: 100vh;
+    margin: 0;
+}
+.shimeji {
+    width: 70px;
+    height: 46px;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    transition: left 0.1s linear;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/* .susie {
+    background-image: url("shimeji/susie/spr_susie_esp(0).png");
+    animation: esp_susie 1s steps(3,jump-none) 0s 4;
+} */
+
+
+#btn {
+    position: relative;
+    z-index: 100;
+}
